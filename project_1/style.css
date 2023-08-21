@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    float: left;
+}
+.leftside{
+    width: 30%;
+    background-color: rgb(89, 203, 229);
+}
+.image img{
+    border-radius: 5px;
+    width: 100%;
+}
+.about{
+    
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    width: 100%;
+}
+#name{
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}   
+#Programmer{
+    text-align: center;
+    font-size: 25px;
+    margin-top: -20px;
+}
+#hello{
+    color: rgb(113, 73, 152)    ;
+    text-align: center;
+    margin-top: -10px;
+}
+#myself{
+    letter-spacing: 2px;
+    font-size: 20px;
+    word-spacing: 11px;
+    padding: 0 30px;
+    font-family: sans-serif;
+    line-height: 20px;
+    
+
+}
+#myself2{
+    letter-spacing: 1px;
+    font-size: 20px;
+    word-spacing: 7px;
+    padding: 0 30px;
+    font-family: sans-serif;
+    line-height: 20px;
+}
+#dots{
+    text-align: center;
+    font-size: 40px;
+    margin-block: -25px;
+    color: #8a8586;
+}
+.rightside{
+    width: 70%;
+    text-align: center;
+    background: #8a8586;
+    
+    float: left;
+    
+
+}
+.left{
+    width: 50%;
+    text-align: center;
+    margin: 10px 24px;
+    background-color: white;
+    padding: 0px 61px;
+    border-radius: 15px;
+    font-size: 27px;
+    
+
+}
+.qwe{
+    display: flex;
+}
+
+#fottor{
+   text-align: center; 
+}
+#fottor p{
+    font-weight: bold;
+    margin-top: -10px;
+    font-size: 20px;
+}
+#fottor h3{
+    margin-top: -10px;
+}
